@@ -172,6 +172,9 @@ New for 2016-17, we'll be taking our workshops directly into schools. We'll be r
 
 In order to make life easier (and because it makes sense - see justifications below) we try to make as many workshops as possible into PDF worksheets. This allows us to easily put them up on the site and share them with teachers in schools. 
 
+## How do workshops go on the website?
+
+Workshop PDFs are submitted via Pull Requests to the Workshop-PDFs repository. The Outreach Teaching Assistant then reviews the requests, merges them if they're ready and notifies the web admin of any new PDFs. The web admin then updates the website.
 
 # Justification of seemingly arbitrary decisions
 
