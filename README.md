@@ -4,10 +4,11 @@ This repo serves as a single point for us to keep notes on how the outreach prog
 ## Useful Pages
 
 * [Creating a workshop](Workshops/Creating-A-Workshop.md)
-* [Github Management](Github-Management.md)
-* [Setting up a RaspberryPi for Digimakers](RPi-Setup/)
 * [Creating a lesson plan for teachers](Workshops/Lesson-Plans.md)
+* [Setting up a RaspberryPi for Digimakers](RPi-Setup/)
 * [Useful Links / Resources](Resources/)
+* [Digimakers Style Guide](Style-Guide/)
+* [Github Management](Github-Management.md)
 * [Assorted Media / Images](Media/)
 
 # People
