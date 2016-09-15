@@ -4,7 +4,7 @@ This repo serves as a single point for us to keep notes on how the outreach prog
 ## Useful Pages
 
 * [Creating a workshop](Workshops/Creating-A-Workshop.md)
-* [Creating a lesson plan for teachers](Workshops/Lesson-Plans.md)
+* [Creating a lesson plan for teachers](Workshops/Lesson-plans.md)
 * [Setting up a RaspberryPi for Digimakers](RPi-Setup/)
 * [Useful Links / Resources](Resources/)
 * [Digimakers Style Guide](Style-Guide/)
