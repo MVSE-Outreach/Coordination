@@ -1,0 +1,90 @@
+[[installing-pimame-on-the-raspberrypi]]
+= Installing PiMAME on the RaspberryPi
+
+[[outline]]
+== Outline
+
+1.  Download PiMAME (see links subsection)
+2.  Copy PiMAME image onto your SD card
+3.  Boot RPi
+4.  Find ROMs to Use
+
+[[install-process]]
+== Install process
+
+Download the PiMAME image from the first link in the links subsection.
+Once you’ve downloaded this, extract the file by:
+
+1.  [Windows] Double clicking the file, and right clicking the `.img`
+file selecting `extract`
+2.  [Linux] Open up a terminal and run
+`unzip -d pimame pimame-0.x.xx.img` where you fill in the `x’s with the
+correct numbers, for me it was `pimame-0.7.10.img`. This will extract
+the file to the folder `pimame` which you can `cd` (change directory)
+into `cd pimame`.
+
+Write the image (.img) file to your SD card:
+
+1.  [Windows] Use `win32diskimager` as outlined in the `Copying PiMAME
+to SD card' link
+2.  [Linux] `cd` into the `pimame` folder and run
+`dd if=pimame-0.x.xx.img of=/dev/sdX bs=4M`. Make sure to replace all
+the `x’s with actual values, for example I used:
+`dd if=pimame-0.7.10.img of=/dev/sdc bs=4M` +
+`if` stands for _input file_, whilst `of` stands for _output file_, `dd`
+copies all the 1s and 0s in `pimame-0.x.xx.img` over to `/dev/sdX` which
+is the device file of your SD card (or it might be `/dev/mmcblkX`).
+Finish off by making sure the file is fully written to the device using
+`sudo sync`, this makes sure all the 1s and 0s are written to `/dev/sdX`
+and are not left in buffers
+
+Now you’ve installed PiMAME to your SD card you can play some games! You
+could also learn how to configure game pads to control your games. I do
+believe Xbox 360 controller should be supported out of the box, others
+will probably need more configureation. PiMAME includes emulators
+(programs that simulate hardware systems) for the following systems:
+
+* MAME
+* Neo Geo
+* Playstation 1
+* Genesis
+* NES
+* SNES
+* Gameboy
+* Gameboy Advance
+* N64 (Alpha quality)
+* Atari 2600
+* Commodore 64
+
+It also includes the following games/programs:
+
+* Cave Story - Side-scrolling platformer (NES mario/zelda style)
+* ScummVM - A program that runs certain classic point and click
+adventure games
+
+[[what-next]]
+== What next!?
+
+After installing PiMAME on your SD card, plug it into your RPi and wait
+for it to boot up. Once booted you’ll be greeted with a terminal screen
+displaying multiple options. Have a look inside these and see what you
+can find!
+
+You’ll probably want to get some games, so head over to CoolROM and
+download some ROMs for the supported platforms. I've whiled away many
+evenings playing 'Super Mario Kart' on SNES emulators.
+
+[[links]]
+== Links
+
+* Download PiMAME img file:
+http://blog.sheasilverman.com/pimame-raspberry-pi-os-download/ -
+http://goo.gl/yPl2wQ
+* Copying PiMAME to SD card:
+http://elinux.org/RPi_Easy_SD_Card_Setup#Flashing_the_SD_Card_using_Windows
+- http://goo.gl/0dRjSt
+* Win32 Disk Imager: http://sourceforge.net/projects/win32diskimager/ -
+http://goo.gl/WOLlar
+* CoolROM (get games (ROMs)): http://www.coolrom.com/ -
+http://goo.gl/sudCYH
+

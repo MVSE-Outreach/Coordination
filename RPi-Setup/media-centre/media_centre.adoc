@@ -1,0 +1,49 @@
+= Media centre on a pi
+
+We're going to use OSMC (formerly known as Raspbmc) as an OS on the
+raspberry pi to provide you with a whole host of in built functionality.
+First you're going to need to download an image (a snapshot of an SD
+card) of Raspbmc by going to the URL (if you're doing this at home,
+avoid the network installer unless your RPi is using wired ethernet and
+not WiFi):
+
+http://download.raspbmc.com/downloads/bin/filesystem/prebuilt/raspbmc-final.img.gz
+
+Once you've downloaded that you'll need to write this image to your SD
+card (which ideally should be 4GB or greater, you may encounter issues
+with a smaller card). To write this image you'll need a piece of
+software called `win32diskimager` which can be downloaded and installed
+from the URL:
+
+http://sourceforge.net/projects/win32diskimager/?source=navbar
+
+. Insert the SD card into your laptop.
+. Once downloaded, unzip and install `win32diskimager` and open it up.
+. Select the SD card from the dropdown menu.
+. Click write and wait for your image to be flashed.
+. Once finished, unplug the SD card and pop it into the Raspberry Pi.
+
+== On demand services
+. Restart your RPi if you haven't already
+. After XBMC has loaded, go down to the power butter and select exit. If a prompt comes up
+  saying XBMC is restarting, then hit `ESC` to get into a terminal.
+  Once you're in the terminal then log in with the credentials:
+  * Username: `pi`
+  * Password: `raspberry`
+. Type `sudo apt-get update && sudo apt-get install ca-certificates`
+. Type `wget
+  https://github.com/MVSE-Outreach/digimakers-dropin-worksheets/raw/master/media-centre/iPlayer-v2.5.9.zip`
+. Type `sudo reboot` to restart the system
+. Navigate through to `System` > `Settings` > `Addons` > `Install from
+  zip file` > `Home folder` and select `iPlayer-v2.5.9.zip` to begin
+  installation.
+
+Should you wish to use ITV's online player follow the above steps but
+with the URL:
+https://xbmc-itvplayer.googlecode.com/files/plugin.video.itv_2_0_4.zip
+
+== What to do next!?
+* Stream media from your tablet or phone to the media centre
+* Change the name of your media centre
+* SSH into your media centre
+* Control XBMC (the media centre software) with your tablet or phone

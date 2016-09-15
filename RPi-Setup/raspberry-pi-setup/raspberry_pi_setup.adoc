@@ -1,0 +1,18 @@
+= Scratch for Raspberry Pi Setup
+
+. Write Raspbian image onto SD card (SD card minimum size: 4GB)
+.. Go to http://www.raspberrypi.org/downloads
+.. Scroll down to find the download link for `Raspbian`. 
+
+image::media/raspbian_download.png[title="Raspbian download section"]
+
+.. Insert your SD card into your computer
+.. Go to https://www.sdcard.org/downloads/formatter_4/ and click either
+   _Download SD Formatter for Windows_ or _Download SD Formatter for Mac_
+   dependent upon the OS you use. Agree to the terms and conditions to
+   download the installer. Once downloaded install the SD card
+   formatter and open it up.
+
+image::media/sd_formatter_download_1.png[]
+
+image::media/sd_formatter_download_2.png[]
