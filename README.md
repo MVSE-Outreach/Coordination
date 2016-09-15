@@ -66,7 +66,7 @@ We've produced a [guide](Workshops/Creating-A-Workshop.md) including all the ste
 
 ## Digimakers
 
-This event happens 4 times per year. We book out the top floor of the @Bristol Science Center and run workshops between 10am and 4pm. Helpers arrive at 8:30/9am to set up and leave around 5pm after helping to clear up. This event always happens on a Saturday and you're paid for all the time you're at the event helping out.
+This event happens 4 times per year. We book out the top floor of the @Bristol Science Center and run workshops between 10am and 4pm. Helpers arrive at 8:30/9am to set up and leave around 5pm after helping to clear up. This event always happens on a Saturday and you're paid for all the time you're at the event helping out (and you get a nice free lunch!).
 
 Along with the workshops, there is also the ***Drop-In area***. This area is run by usually three to five people. The drop-in provides three functions:
 
