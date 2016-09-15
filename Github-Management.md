@@ -2,6 +2,12 @@
 
 In the past, the Github was managed ad-hoc by anyone involved in Outreach. Going forward, we would like to gain a bit more control and bring some order to it, so that it is easy to use for all future *Outreachers*.
 
+## Repositories
+
+Anyone can create a repository, but access to other people's repositories is restricted unless they give you permission. Coordinators (see below) can be given access to any repository by Owners (see below).
+
+Everyone has write access to the *special repositories*, subject to certain restrictions. Please read the *special repositories* section below.
+
 ## Permissions Structure
 
 We would like to use the following structure:
