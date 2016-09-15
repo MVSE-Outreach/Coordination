@@ -2,6 +2,8 @@
 
 In the past, the Github was managed ad-hoc by anyone involved in Outreach. Going forward, we would like to gain a bit more control and bring some order to it, so that it is easy to use for all future *Outreachers*.
 
+## Permissions Structure
+
 We would like to use the following structure:
 
 | Item | Role | Team | Description |
@@ -12,7 +14,9 @@ We would like to use the following structure:
 | Repo | Admin/Owner | (Per repo collaborators) | The person who created the repository / created the content of the repo |
 | Repo | Contributor | (Per repo collaborators) | People helping to add content to a repo should be given Write access. Possibly with a restriction on the Master branch. |
 
-There are four *special repositories* that everyone has write access to except the master branch, which requires an approved pull request with no request changes and a member of the Coordinators team to merge. These special repos are:
+## Special Repositories
+
+There are four *special repositories* that everyone has write access to except the master branch, which requires an approved pull request with no requested changes and a member of the Coordinators team to merge. These special repos are:
 
 * Coordination (This repo)
 * LaTeX-Worksheet-Templates
