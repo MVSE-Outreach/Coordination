@@ -9,6 +9,8 @@ The complete list of people involved in the Outreach programme is rather variabl
 
 For 2016-17, Ed Nutting is the Outreach Teaching Assistant who is helping Caroline coordinate things. Contact him for Github related questions, techy questions or if you would just prefer to talk to an undergrad (3rd year) (Caroline is a lovely person though).
 
+For information on how roles/permissions are assigned/controlled for different people, please see the [Github Management](Github-Management.md) page.
+
 # Workshops
 
 Digimakers operates as a loose knit organisation of people who create and run workshops for kids (ages 8 to 18). Members of the Merchant Venturers School of Engineering (undergrads, postgrads, staff, etc) are all invited to help out. 
@@ -78,6 +80,12 @@ In order to make life easier (and because it makes sense - see justifications be
 ## How do workshops go on the website?
 
 Workshop PDFs are submitted via Pull Requests to the Workshop-PDFs repository. The Outreach Teaching Assistant then reviews the requests, merges them if they're ready and notifies the web admin of any new PDFs. The web admin then updates the website.
+
+
+# Github
+
+[There is a specific page dedicated to documenting how we manage the Github.](Github-Management.md)
+
 
 # Justifications of seemingly arbitrary decisions
 
