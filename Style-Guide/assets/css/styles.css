@@ -1,0 +1,317 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+  
+strong, b {font-weight:bold;}
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+  
+.logo{background: url(../img/DM-logo.png) left center no-repeat; display:block; width:250px; height:205px; }
+
+@font-face {
+  font-family: 'MuseoSlab';
+  src: url("../fonts/interstate-regular-webfont.eot");
+  src: url("../fonts/MuseoSlab-500.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSlab-500.woff") format("woff"), url("../fonts/MuseoSlab-500.ttf") format("truetype"), url("../fonts/MuseoSlab-500.svg#MuseoSlab-500") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: "MuseoSlab";
+  font-size: 0.9em;
+  line-height: 1.4em;
+  color: #666666; 
+  font-weight: normal;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "MuseoSlab";
+  font-weight: bold;
+  color: #002C5B; }
+
+a {
+  text-decoration: none;
+  color: #BF2F38; }
+  a:hover {
+    color: #000000; }
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1em; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1em; }
+
+h3 {
+  font-size: 1.8em;
+  line-height: 1.1em; }
+
+h4 {
+  font-size: 1.6em;
+  line-height: 1.1em; }
+
+h5 {
+  font-size: 1.4em;
+  line-height: 1.1em; }
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1.1em; }
+
+h6 {
+  font-size: 1em;
+  line-height: 1.1em; }
+
+p {
+  margin-bottom: 1.1em; }
+
+.lead {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  font-family: "MuseoSlab"; }
+
+.media-list {
+  display: block;
+  float: left;
+  position: relative;
+  clear: left;
+  width: 100%; }
+  .media-list li {
+    display: block;
+    float: left;
+    position: relative;
+    clear: left;
+    margin: 0 0 10px 0;
+    font-size: .9em;
+    line-height: 1.4em; }
+    .media-list li:last-child {
+      margin-bottom: 0; }
+    .media-list li h1, .media-list li h2, .media-list li h3, .media-list li h4, .media-list li h5, .media-list li h6 {
+      margin-bottom: 4px; }
+    .media-list li .media {
+      display: block;
+      float: left;
+      position: relative;
+      margin: 1px 20px 0 0;
+      /* Events list */ }
+      .media-list li .media img {
+        display: block;
+        border-radius: 10px; }
+      .media-list li .media.media-date {
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+        background: #BF2F38;
+        border-radius: 10px;
+        text-align: center;
+        color: #FFF; }
+        .media-list li .media.media-date .month {
+          display: block;
+          margin-top: 6px;
+          margin-bottom: 2px;
+          text-transform: uppercase; }
+        .media-list li .media.media-date .date {
+          display: block;
+          font-size: 2.5em; }
+
+.quote {
+  display: block;
+ border-left: 4px solid #ccc;
+    color: inherit;
+    font-style: italic;
+    margin: 30px 0 30px 15px;
+    padding-left: 15px;  }
+
+.well {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  background: #E2FAFE;
+  border-radius: 10px; }
+
+  .well .block-heading {
+    display: block;
+    margin-bottom: 10px; }
+
+.menu-horizontal {
+  display: block;
+  background-color: #11bfda;
+  padding: 20px;
+  height:18px;
+  position: relative;
+  margin-bottom:20px;
+  border: 1px solid #002C5B;
+  font-size: 1.1em; }
+  .menu-horizontal li {
+    display: block;
+    float: left;
+    position: relative;
+    border-right: 2px solid #002C5B; }
+    .menu-horizontal li:last-child {
+      border-right: none; }
+    .menu-horizontal li a {
+      display: block;
+      padding: 0 1em;
+      color: #002C5B; }
+      .menu-horizontal li a:hover {
+      color: #FFFFFF; }
+      .menu-horizontal li .active {
+      color: #FFFFFF; }
+
+
+.side-menu {
+  display: block;
+  padding: 15px 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  font-size: 1em; }
+  .side-menu li {
+    display: block;
+    clear: left;
+    margin: 0 0 1em 0; }
+    .side-menu li a {
+    color: #002C5B;}
+    .side-menu li:last-child {
+      margin-bottom: 0; }
+    .side-menu li.active a {
+      display: block;
+      padding-left: 20px;
+      background: url(../img/sub-nav-active.png) left center no-repeat;
+      color:000000; }
+    .side-menu li ul {
+      display: block;
+      margin: 0 0 0 1.4em; }
+      .side-menu li ul li {
+        margin: .8em 0 0 0;
+        color: #888888; }
+        .side-menu li ul li a {
+          color: #888888; }
+          .side-menu li ul li a:hover {
+            color: #000000; }
+
+.rounded {
+  border-radius: 100%; }
+
+.curved {
+  border-radius: 20px; }
+  
+
+.bigbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11bfda), color-stop(1, #41b0c9) );
+	background:-moz-linear-gradient( center top, #11bfda 5%, #41b0c9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11bfda', endColorstr='#41b0c9');
+	background-color:#11bfda;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	text-indent:0;
+	border:1px solid #002C5B;
+	display:inline-block;
+	color:#002C5B;
+	font-size:18px;
+	font-weight:normal;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #a3eafa;
+}
+.bigbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #41b0c9), color-stop(1, #11bfda) );
+	background:-moz-linear-gradient( center top, #41b0c9 5%, #11bfda 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#41b0c9', endColorstr='#11bfda');
+	background-color:#41b0c9;
+	color:#FFF;
+	text-shadow:1px 1px 0px #002C5B;
+}.bigbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.smallbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #11bfda), color-stop(1, #41b0c9) );
+	background:-moz-linear-gradient( center top, #11bfda 5%, #41b0c9 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#11bfda', endColorstr='#41b0c9');
+	background-color:#11bfda;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	text-indent:0;
+	border:1px solid #002C5B;
+	display:inline-block;
+	color:#002C5B;
+	font-size:14px;
+	font-weight:normal;
+	font-style:normal;
+	height:33px;
+	line-height:33px;
+	width:120px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #a3eafa;
+	
+}
+.smallbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #41b0c9), color-stop(1, #11bfda) );
+	background:-moz-linear-gradient( center top, #41b0c9 5%, #11bfda 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#41b0c9', endColorstr='#11bfda');
+	background-color:#41b0c9;
+	color:#FFF;
+	text-shadow:1px 1px 0px #002C5B;
+}.smallbutton:active {
+	position:relative;
+	top:1px;
+}
+
