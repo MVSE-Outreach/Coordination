@@ -45,9 +45,9 @@ Workshops are run in two places: Digimakers and Digimakers Roadshow. For more de
 
 ## Creating a workshop
 
-We're always looking for more people to create workshops! They're great fun and very rewarding. If you think you'd like to create on and aren't sure where to start, please contact Caroline or the Outreach Teaching Assistant. 
+We're always looking for more people to create workshops! They're great fun and very rewarding. If you think you'd like to create one and aren't sure where to start, please contact Caroline or the Outreach Teaching Assistant. 
 
-We've produced a [guide](Creating-A-Workshop.md) including all the steps, the things you need to know and guidelines that need to be followed (along with a load of tips). Take a look at the [Creating A Workshop](Creating-A-Workshop.md) page.
+We've produced a [guide](Creating-A-Workshop.md) including all the steps, the things you need to know and *guidelines that need to be followed* (along with a load of tips). Please take a look at the [Creating A Workshop](Creating-A-Workshop.md) page.
 
 
 # Events
