@@ -83,7 +83,7 @@ New for 2016-17, we'll be taking our workshops directly into schools. We'll be r
 
 # Website
 
-[The website](http://www.digimakers.co.uk) is managed by Caroline and her team. The website is developed and maintained by an external friend and he does an excellent job. If you think something should be on the website which isn't, or you spot a mistake or something which could be improved, please suggest it! (Please note, we're not looking for a complete redevelopment using XYZ platform on ABC specialist hosting site... See justifications below ;) )
+[The website](http://www.digimakers.co.uk) is managed by Caroline and her team. It is developed and maintained by an external friend and he does an excellent job. If you think something should be on the website which isn't, or you spot a mistake or something which could be improved, please suggest it! (Please note, we're not looking for a complete redevelopment using XYZ platform on ABC specialist hosting site... See justifications below ;) )
 
 In order to make life easier (and because it makes sense - see justifications below) we try to make as many workshops as possible into PDF worksheets. This allows us to easily put them up on the site and share them with teachers in schools.
 
